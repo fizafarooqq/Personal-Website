@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="cs1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+            <div class="header-text">
+                <h2>Hi, I am Fiza Farooq</h2>
+                <p>A computer science student at Fast NUCES</p>
+            </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    </div>
+                <div class="about-2">
+                    <h2>About Me</h2>
+                    <p>I am a dedicated Computer Science student currently studying at FAST University. My journey in the world of technology has equipped me with extensive knowledge and hands-on experience in various programming languages, including C, C++, Python, HTML, and CSS. My strong command of Object-Oriented Programming (OOP) principles and Data Structures allows me to design and implement efficient, robust, and scalable software solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <a href="https://github.com/fizafarooqq/Unix-Shell-Developoment" target="_blank">
+                <h3>Unix-Shell development</h3>
+            </a>
+                <p>The project aims to develop a Unix shell, a command-line interface allowing users to interact with the Unix operating system. It serves as a command interpreter, executing commands entered by users, processing them, and providing appropriate output.</p>
+        </div>
+        <div class="project">
+            <a href="https://github.com/fizafarooqq/Karachi-Red-Bus-Route-Finder" target="_blank">
+                <h3>Karachi Red Bus Route Finder </h3>
+                </a>
+                <p>The Karachi Red Bus Route Finder is a program designed to assist users in finding bus routes between different stops in Karachi, Pakistan. The implementation is based on principles of data structures and algorithms, particularly graph theory. The algorithm used for finding routes is inspired by graph traversal techniques, and the overall design aims to provide a seamless experience for users navigating through Karachi's extensive bus network.</p>
+        </div>
+        <div class="project">
+            <a href="https://github.com/fizafarooqq/Electronic-Voting-machine" target="_blank">
+                <h3>Electronic Voting Machine</h3>
+                </a>
+                <p>The Electronic Voting Machine project aims to increase election procedures' credibility. An effective means of reducing corruption and increasing output. The project's foundation lies in the utilization of OOP concepts such as encapsulation, inheritance, and polymorphism. Through well-defined classes—province, city, district, person, voter, and party—our system encapsulates distinct entities, efficiently managing their related data and behaviour.</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label class="la" for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label class="la" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label class="la" for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>

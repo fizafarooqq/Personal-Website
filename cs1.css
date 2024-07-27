@@ -1,0 +1,149 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 245, 245);
+}
+
+header {
+    background-color:  #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* #header2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(myimage2.jpeg);
+    background-size: cover;
+    background-position: center;
+} */
+
+p{
+    font-family: Helvetica;
+    font-size: 16px;    
+    font-style: normal;
+    color: #070707;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    height: 100vh;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(88, 86, 86);
+}
+
+.myi{
+    width: 10%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-1 {
+    margin-top: 15%;
+    flex-basis: 35%;
+    background-image: url(pic.jpeg);
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 300px; /* Set an explicit height if needed */
+}
+  
+.about-2{
+    margin-top: 20%;
+    flex-basis: 60%;
+}
+
+h2 {
+    color: #070707;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project a {
+    text-decoration: underline;
+    color: inherit;
+    display: block;
+    max-width: 300px;
+}
+
+.project h3 {
+    margin-top: 0.5rem;
+    color: #000000;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s ease;
+}
+.project a:hover h3 {
+    color: #007bff; /* Change the color to indicate it's a link */
+    text-decoration: underline;
+}
+
+.project p {
+    color: #0f0f0e;
+} */
+
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.la{
+    color: #0e0d0d;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #5e5b5b;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
